@@ -1,0 +1,160 @@
+:root {
+    --main-color: #fff;
+    --primary-color: #000;
+    --secondary-color: #4B5945;
+    --secondary-color-1: #66785F;
+    --secondary-color-2: #91AC8F;
+    --secondary-color-3: #B2C9AD;
+
+
+}
+
+.navbar {
+    background-color: var(--secondary-color);
+}
+
+.navbar-brand {
+    text-align: center;
+    color: var(--main-color);
+}
+
+.navbar-brand:hover {
+    color: var(--main-color);
+}
+
+.navbar ul li a {
+    color: var(--main-color);
+}
+
+.navbar ul li a:hover {
+    color: var(--main-color);
+}
+
+#welcome_message {
+    margin-top: 65px;
+    text-align: center;
+}
+
+#homepage_accounts {
+    margin-top: 65px;
+}
+
+#homepage_accounts .container .col-md-6 {
+    border: 1px solid var(--secondary-color-2);
+    padding: 50px;
+    text-align: center;
+}
+
+#homepage_accounts .container .col-md-6:hover {
+    background-color: var(--secondary-color-3);
+    transition: .4s ease;
+    border: none;
+}
+
+#homepage_accounts .container .col-md-6 .title h5 {
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+#homepage_accounts .container .col-md-6 span a {
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 15px 75px;
+    background-color: var(--secondary-color);
+    color: var(--main-color);
+}
+
+#homepage_accounts .container .col-md-6 span a:hover {
+    background-color: var(--primary-color);
+    color: var(--main-color);
+    transition: .3s ease-in-out;
+}
+
+#back_button {
+    margin: 45px;
+}
+
+#back_button span {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+#back_button span:hover {
+    text-decoration: underline;
+}
+
+/* Logins */
+#login_page .login_form .form-control {
+    box-shadow: none;
+}
+
+#login_page .login_form .form-group .btn {
+    background: var(--secondary-color);
+    color: var(--main-color);
+    padding: 15px 75px;
+}
+
+#login_page .login_form .form-group .btn:hover {
+background: var(--primary-color);
+    color: var(--main-color);
+    transition: .4s ease;
+}
+
+#dashboard_message {
+    margin-top: 40px;
+    margin-bottom: 55px;
+}
+
+#dashboard_message span {
+    font-weight: 300;
+}
+
+/* Dashboard Cards */
+#dashboard_cards .container .col-md-4 {
+    border: 1px solid var(--secondary-color);
+    text-align: center;
+    padding: 70px;
+}
+
+#dashboard_cards .container .col-md-4 a {
+    color: var(--secondary-color);
+}
+
+#dashboard_cards .container .col-md-4 a:hover {
+    padding: 10px 35px;
+    border: none;
+    color: var(--main-color);
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    transition: .2s ease;
+    text-decoration: none;
+}
+
+/* Page title */
+#page_title h4 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+    margin-top: 40px;
+}
+
+/* Add link */
+#add_link {
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+#add_link a {
+    text-decoration: none;
+    padding: 15px 75px;
+    background-color: var(--secondary-color-2);
+    color: var(--main-color);
+    text-align: center;
+    border-radius: 5px;
+}
+
+#add_link a:hover {
+    background-color: var(--primary-color);
+        color: var(--main-color);
+        transition: .3s ease-in-out;
+}

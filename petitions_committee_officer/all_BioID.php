@@ -64,7 +64,7 @@ $database_connection = database_connect();
                         if($all_codes['status'] == 0){
                             echo "<span class='text-success'>Not taken</span>";
                         } else {
-                            "<span class='text-danger'>Already Taken</span>";
+                            echo "<span class='text-danger'>Already Taken</span>";
                         }
                     ?></td>
                 </tbody>
